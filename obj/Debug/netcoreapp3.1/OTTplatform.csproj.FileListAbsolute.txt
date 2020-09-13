@@ -1,0 +1,13 @@
+D:\applicatiomns\ottPlatform\bin\Debug\netcoreapp3.1\OTTplatform.exe
+D:\applicatiomns\ottPlatform\bin\Debug\netcoreapp3.1\OTTplatform.deps.json
+D:\applicatiomns\ottPlatform\bin\Debug\netcoreapp3.1\OTTplatform.runtimeconfig.json
+D:\applicatiomns\ottPlatform\bin\Debug\netcoreapp3.1\OTTplatform.runtimeconfig.dev.json
+D:\applicatiomns\ottPlatform\bin\Debug\netcoreapp3.1\OTTplatform.dll
+D:\applicatiomns\ottPlatform\bin\Debug\netcoreapp3.1\OTTplatform.pdb
+D:\applicatiomns\ottPlatform\obj\Debug\netcoreapp3.1\OTTplatform.csprojAssemblyReference.cache
+D:\applicatiomns\ottPlatform\obj\Debug\netcoreapp3.1\OTTplatform.AssemblyInfoInputs.cache
+D:\applicatiomns\ottPlatform\obj\Debug\netcoreapp3.1\OTTplatform.AssemblyInfo.cs
+D:\applicatiomns\ottPlatform\obj\Debug\netcoreapp3.1\OTTplatform.csproj.CoreCompileInputs.cache
+D:\applicatiomns\ottPlatform\obj\Debug\netcoreapp3.1\OTTplatform.dll
+D:\applicatiomns\ottPlatform\obj\Debug\netcoreapp3.1\OTTplatform.pdb
+D:\applicatiomns\ottPlatform\obj\Debug\netcoreapp3.1\OTTplatform.genruntimeconfig.cache
