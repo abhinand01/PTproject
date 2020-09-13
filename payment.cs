@@ -65,7 +65,7 @@ class payment {
         Console.WriteLine ("enter the otp number sent to the registered mobile number");
         int otp2 = Convert.ToInt16 (Console.ReadLine ());
         if (otp1 == otp2) {
-            Console.WriteLine ("Loading... Do not exit While the transaction...");
+            Console.WriteLine ("Loading..... Do not exit While the transaction...");
             Thread.Sleep (2000);
             Console.WriteLine ("transacting.......");
             Thread.Sleep (2000);
