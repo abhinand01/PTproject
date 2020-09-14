@@ -1,10 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System;
+using Newtonsoft.Json;
+using System.IO;
 
-namespace OTTplatform {
+
+namespace OTTplatform
+{
     class Program /*:Ipayment_Nf,Ipayment_Ap*/ {
         static void Main (string[] args) {
-            string str, choice, ch;
+
+             using (StreamReader r = new StreamReader("series.json"))
+    {
+        string json = r.ReadToEnd();
+        dynamic array=JsonConvert.DeserializeObject(json);
+        foreach(var item in array.input)
+        {
+        List<string> temp = new List<string>();
+        Console.WriteLine(item.name);}
+    }
+       /*    string str, choice, ch;
             int age;
             Console.WriteLine ("----WELCOME TO OTT PLATFORMS PAGE----");
             Console.WriteLine ("Enter your user-name");
@@ -32,8 +46,9 @@ namespace OTTplatform {
                         ott1.login ();
 
                     }
+                    Console.WriteLine ("==============================");
                     sh1.shows_Nf ();
-                    Console.WriteLine ("*****************");
+                    Console.WriteLine ("==============================");
                     Console.WriteLine ("if you want to: \nsearch any show (PRESS 1) \nfind genre(PRESS 2) \nExit (PRESS 3)");
                     ch = Console.ReadLine ();
                     if (ch == "1") {
@@ -57,12 +72,16 @@ namespace OTTplatform {
                         ott2.login ();
                     } else if (choice == "sign-up") {
                         ott2.signup ();
+                        Console.WriteLine("\n");
                         ott2.plans ();
+                        Console.WriteLine("\n");
                         ott2.paymentOptions ();
                         //ott2.payment_Ap();
                     }
+                    Console.WriteLine("==============================");
                     sh2.shows_Ap ();
-                    Console.WriteLine ("*****************");
+                    Console.WriteLine ("==============================");
+                    Console.WriteLine("\n");
                     Console.WriteLine ("if you want to: \nsearch any show (PRESS 1) \nfind genre(PRESS 2) \nExit (PRESS 3)");
                     ch = Console.ReadLine ();
                     if (ch == "1") {
@@ -92,8 +111,8 @@ namespace OTTplatform {
                 p3 = p1 + p2;
                 p3.discount ();
             } else
-                Console.WriteLine ("Take both subscriptions and get our Special offer");
-        }
+                Console.WriteLine ("Take both subscriptions and get our Special offer");*/
+         }
 
     }
 }

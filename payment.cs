@@ -3,6 +3,7 @@ using System.Threading;
 class payment {
     private int price, amount;
     public double dis;
+    //public int b=1;
     private int cvv;
     private string mmyy,cardno, upi, userid, password;
     private char[] cardnumber=new char[16];
@@ -21,6 +22,7 @@ class payment {
         dis = dis * 0.09;
         if (price > 1000) {
             Console.WriteLine (value: $"Total amount paying for both plat form {price}");
+            Console.WriteLine("You are getting a discount of price:"+dis);
             Console.WriteLine (value: $"Amount of {dis} will be credited to your account as our discount");
         } else {
             Console.WriteLine ("Sorry... Your not Availed for this offer");
@@ -41,8 +43,13 @@ class payment {
             Console.WriteLine ("transacting.......");
             Thread.Sleep (2000);
             Console.WriteLine ("Transaction  Successful");
+             //a=1;
         } else
-            Console.WriteLine ("OTP miss Matching. Try Again");
+            {Console.WriteLine ("OTP miss Matching. Try Again");
+             }
+           
+
+
     }
 
     public void paymentchannel (string pt, string upiid) {
@@ -83,7 +90,7 @@ class payment {
         int opt = Convert.ToInt16 (Console.ReadLine ());
         switch (opt) {
             case 1:
-                Console.WriteLine ("enter your card number");
+                Console.WriteLine ("enter your 16 digit card number");
                 //for(int i=0;i<12;i++)
                 cardno = Console.ReadLine ();
                 cardnumber=cardno.ToCharArray();

@@ -6,8 +6,8 @@ class showList : IShows_Nf, IShows_Ap {
     //List<string> nf_shows=new List<string>(5);
     int gen;
     string search_ap, search_nf;
-    string[] nf_shows = { "**lucifer**", "**vampire diaries**", "**FRIENDS**", "**Stranger Things**", "**Breaking Bad**" };
-    string[] ap_shows = { "**The Boys**", "**Mirazpur**", "**Big Bang Theory**", "**Bandish Bandits**", "**Comicstaan**" };
+    string[] nf_shows = { "lucifer", "vampire diaries", "FRIENDS", "Stranger Things", "Breaking Bad" };
+    string[] ap_shows = { "The Boys", "Mirazpur", "Big Bang Theory", "Bandish Bandits", "**Comicstaan**" };
     public void shows_Nf () {
         Console.WriteLine ("----Shows in netflix----");
         for (int i = 0; i < 5; i++)

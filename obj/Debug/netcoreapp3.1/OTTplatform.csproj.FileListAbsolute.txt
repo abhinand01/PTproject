@@ -11,3 +11,5 @@ D:\applicatiomns\ottPlatform\obj\Debug\netcoreapp3.1\OTTplatform.csproj.CoreComp
 D:\applicatiomns\ottPlatform\obj\Debug\netcoreapp3.1\OTTplatform.dll
 D:\applicatiomns\ottPlatform\obj\Debug\netcoreapp3.1\OTTplatform.pdb
 D:\applicatiomns\ottPlatform\obj\Debug\netcoreapp3.1\OTTplatform.genruntimeconfig.cache
+D:\applicatiomns\ottPlatform\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\applicatiomns\ottPlatform\obj\Debug\netcoreapp3.1\OTTplatform.csproj.CopyComplete
