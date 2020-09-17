@@ -8,16 +8,12 @@ namespace OTTplatform
 {
     class Program /*:Ipayment_Nf,Ipayment_Ap*/ {
         static void Main (string[] args) {
+             showList sh1=new showList();
+             sh1.shows_Nf();
+            // sh1.search_Nf_shows();
+          //  sh1.select_Nf_genre();
 
-             using (StreamReader r = new StreamReader("series.json"))
-    {
-        string json = r.ReadToEnd();
-        dynamic array=JsonConvert.DeserializeObject(json);
-        foreach(var item in array.input)
-        {
-        List<string> temp = new List<string>();
-        Console.WriteLine(item.name);}
-    }
+          
        /*    string str, choice, ch;
             int age;
             Console.WriteLine ("----WELCOME TO OTT PLATFORMS PAGE----");

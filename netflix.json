@@ -1,0 +1,59 @@
+
+{
+    "series": [
+      {
+        "name":"Stranger things8",
+        "genre":"superNatural",
+        "genre1":"science ficton",
+        "Rating":8.8,
+        "Storyline":"In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries."
+        
+      },
+      {
+        "name": "Breaking Bad",
+        "genre":"thriller",
+        "genre1":"crime",
+        "Rating":9.5,
+        "Storyline":"Walter White, a chemistry teacher, discovers that he has cancer and decides to get into the meth-making business to repay his medical debts. His priorities begin to change when he partners with Jesse."
+      },
+      {
+        "name": "Lucifer",
+        "genre":"fantacy",
+        "genre1":"drama",
+        "Rating":8.2,
+        "Storyline":"Lucifer, a demon, returns from hell to reside in Los Angeles and runs a club. He soon gets involved with the local police and assists them in solving tricky criminal cases."
+      },
+      {
+        "name": "peaky blinders",
+        "genre":"crime",
+        "genre1":"historical ficton",
+        "Rating":8.8,
+        "Storyline":"A dangerous Tommy Shelby leads Peaky Blinders, a criminal gang based in Birmingham in 1919. Chief Inspector Chester Campbell decides to nab him and put an end to the activities of this gang."
+      },
+      {
+        "name": "dark",
+        "genre":"mystery",
+        "genre1":"science ficton",
+        "Rating":8.8,
+        "Storyline":"The mystery-drama series introduces an intricate puzzle filled with twists that includes a web of curious characters, all of whom have a connection to the town's troubled history "
+      },
+      {
+        "name": "money heist",
+        "genre":"crime",
+        "genre1":"drama",
+        "Rating":8.4,
+        "Storyline":"A criminal mastermind who goes by \"The Professor\" has a plan to pull off the biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain"
+      }
+    ],
+    "movie":[
+      {
+        "name":"Extraction"
+      },
+      {
+        "name":"Train to busan"
+      }
+
+    ]
+  }
+
+  
