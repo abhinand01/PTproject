@@ -4,38 +4,47 @@ using System.Linq;
 using Newtonsoft.Json;
 using System.IO;
 
-class showList //: IShows_Nf, IShows_Ap */
+class showList :  Shows_Ap,IShows_Nf
 {
     //List<string> nf_shows=new List<string>(5);
     
     string gen;
-
+     int flag=0;
     string search_ap, search_nf;
-    string[] nf_shows = { "lucifer", "vampire diaries", "FRIENDS", "Stranger Things", "Breaking Bad" };
-    string[] ap_shows = { "The Boys", "Mirazpur", "Big Bang Theory", "Bandish Bandits", "**Comicstaan**" };
-    int flag=0;
+   public override void shows_Ap()
+   {
+          using (StreamReader r = new StreamReader("amazon.json"))
+    {
+        string json = r.ReadToEnd();
+        dynamic array=JsonConvert.DeserializeObject(json);
+        foreach(var item in array.series)
+        {
+            Console.WriteLine(item.name);
+        }}
+   }
     public void shows_Nf () {
         
      using (StreamReader r = new StreamReader("netflix.json"))
     {
         string json = r.ReadToEnd();
         dynamic array=JsonConvert.DeserializeObject(json);
-        foreach(var item in array.movie)
+        foreach(var item in array.series)
         {
         //List<string> temp = new List<string>();
+    
         Console.WriteLine(item.name);
         }
     }    
     }
-    public void findyourshow(string selectgenre)
+    public void findnetflixshow(string selectgenre)
     {
-         using (StreamReader r = new StreamReader("series.json"))
+         using (StreamReader r = new StreamReader("netflix.json"))
     {
         string json = r.ReadToEnd();
         dynamic array=JsonConvert.DeserializeObject(json);
         string gn1;
         string gn2;
-        foreach(var item in array.input)
+        foreach(var item in array.series)
         {
             gn1=item.genre;
             gn2=item.genre1;
@@ -53,13 +62,13 @@ class showList //: IShows_Nf, IShows_Ap */
         Console.WriteLine("sorry.......");
     }
     }
-    public void findyourshow(double a)
+    public void findnetflixshow(double a)
     {
-         using (StreamReader r = new StreamReader("series.json"))
+         using (StreamReader r = new StreamReader("netflix.json"))
     {
         string json = r.ReadToEnd();
         dynamic array=JsonConvert.DeserializeObject(json);
-         foreach(var item in array.input)
+         foreach(var item in array.series)
             {
             double imdb=item.Rating;
             //double imdb=double.Parse(imdb1);
@@ -81,10 +90,10 @@ class showList //: IShows_Nf, IShows_Ap */
  
            //Console.WriteLine("enter your genre");
            //gen=Console.ReadLine();
-          // findyourshow(gen);
+          // findnetflixshow(gen);
            Console.WriteLine("Minimum rating you need");
          double rate=Convert.ToDouble(Console.ReadLine());
-           findyourshow(rate);
+           findnetflixshow(rate);
            }
     public void search_Nf_shows () {
            using (StreamReader r = new StreamReader("series.json"))
@@ -109,29 +118,4 @@ class showList //: IShows_Nf, IShows_Ap */
        
 
     }
-    public void select_Ap_genre () {
-      
     }
-    public void shows_Ap () {
-        Console.WriteLine ("----Shows in Amazon Prime----");
-        for (int i = 0; i < 5; i++)
-            Console.WriteLine (ap_shows[i]);
-    }
-    public void search_Ap_shows () {
-        int flag = 0;
-        Console.WriteLine ("Enter the show that you are looking for:");
-        search_ap = Console.ReadLine ();
-        //int s_ap = Int32.Parse(search_ap);
-        for (int i = 0; i < 5; i++) {
-            if (ap_shows[i] == search_ap) {
-                flag = 1;
-                break;
-            }
-
-        }
-        if (flag == 1)
-            Console.WriteLine ("The Show is available..Enjoy Watching....");
-        else
-            Console.WriteLine ("Sry the Show is not Available");
-    }
-}

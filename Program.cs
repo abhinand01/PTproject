@@ -9,9 +9,10 @@ namespace OTTplatform
     class Program /*:Ipayment_Nf,Ipayment_Ap*/ {
         static void Main (string[] args) {
              showList sh1=new showList();
-             sh1.shows_Nf();
+             //sh1.shows_Nf();
             // sh1.search_Nf_shows();
-          //  sh1.select_Nf_genre();
+          //sh1.select_Nf_genre();
+                sh1.select_Ap_genre();        
 
           
        /*    string str, choice, ch;
