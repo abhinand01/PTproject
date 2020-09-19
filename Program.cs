@@ -7,7 +7,7 @@ namespace OTTplatform {
     class Program {
         static void Main (string[] args) {
 
-            string str, choice, ch;
+            string str, choice, ch, sec;
             int age;
             Console.WriteLine ("----WELCOME TO OTT PLATFORMS PAGE----");
             Console.WriteLine ("Enter your user-name");
@@ -35,17 +35,36 @@ namespace OTTplatform {
                         ott1.login ();
 
                     }
-                    Console.WriteLine ("==============================");
-                    sh1.shows_Nf ();
-                    Console.WriteLine ("==============================");
-                    Console.WriteLine ("if you want to: \nsearch any show (PRESS 1) \nfind genre(PRESS 2) \nExit (PRESS 3)");
-                    ch = Console.ReadLine ();
-                    if (ch == "1") {
-                        sh1.search_Nf_shows ();
-                    } else if (ch == "2") {
-                        sh1.select_Nf_genre ();
-                    } else {
-                        break;
+                    Console.WriteLine ("SELECT THE -- MOVIES SECTION OR SERIES SECTION --");
+                    sec = Console.ReadLine ();
+                    if (sec == "series") {
+                        Console.WriteLine ("==============================");
+                        sh1.shows_Nf ();
+                        Console.WriteLine ("==============================");
+                        Console.WriteLine ("\n");
+                        Console.WriteLine ("if you want to: \nsearch any show (PRESS 1) \nfind genre and filter based on rating(PRESS 2) \nExit (PRESS 3)");
+                        ch = Console.ReadLine ();
+                        if (ch == "1") {
+                            sh1.search_Nf_shows ();
+                        } else if (ch == "2") {
+                            sh1.select_Nf_genre ();
+                        } else {
+                            break;
+                        }
+                    } else if (sec == "movies") {
+                        Console.WriteLine ("==============================");
+                        sh1.movies_Nf ();
+                        Console.WriteLine ("==============================");
+                        Console.WriteLine ("\n");
+                        Console.WriteLine ("if you want to: \nSearch any show (PRESS 1) \n\tSelect genre and filter based on rating(PRESS 2) \n\t\tExit (PRESS 3)");
+                        ch = Console.ReadLine ();
+                        if (ch == "1") {
+                            sh1.search_Nf_movies ();
+                        } else if (ch == "2") {
+                            sh1.select_Nf_movie_genre ();
+                        } else {
+                            break;
+                        }
                     }
 
                     break;
@@ -64,20 +83,39 @@ namespace OTTplatform {
                         ott2.plans ();
                         Console.WriteLine ("\n");
                         ott2.paymentOptions ();
+                        ott2.login ();
 
                     }
-                    Console.WriteLine ("==============================");
-                    sh2.shows_Ap ();
-                    Console.WriteLine ("==============================");
-                    Console.WriteLine ("\n");
-                    Console.WriteLine ("if you want to: \nsearch any show (PRESS 1) \nfind genre(PRESS 2) \nExit (PRESS 3)");
-                    ch = Console.ReadLine ();
-                    if (ch == "1") {
-                        sh2.search_Ap_shows ();
-                    } else if (ch == "2") {
-                        sh2.select_Ap_genre ();
-                    } else {
-                        break;
+                    Console.WriteLine ("SELECT THE -- MOVIES SECTION OR SERIES SECTION --");
+                    sec = Console.ReadLine ();
+                    if (sec == "series") {
+                        Console.WriteLine ("==============================");
+                        sh2.shows_Ap ();
+                        Console.WriteLine ("==============================");
+                        Console.WriteLine ("\n");
+                        Console.WriteLine ("if you want to: \nsearch any show (PRESS 1) \nfind genre and filter based on rating(PRESS 2) \nExit (PRESS 3)");
+                        ch = Console.ReadLine ();
+                        if (ch == "1") {
+                            sh2.search_Ap_shows ();
+                        } else if (ch == "2") {
+                            sh2.select_Ap_genre ();
+                        } else {
+                            break;
+                        }
+                    } else if (sec == "movies") {
+                        Console.WriteLine ("==============================");
+                        sh2.movies_Ap ();
+                        Console.WriteLine ("==============================");
+                        Console.WriteLine ("\n");
+                        Console.WriteLine ("if you want to: \nSearch any show (PRESS 1) \n\tSelect genre and filter based on rating(PRESS 2) \n\t\tExit (PRESS 3)");
+                        ch = Console.ReadLine ();
+                        if (ch == "1") {
+                            sh2.search_Ap_movies ();
+                        } else if (ch == "2") {
+                            sh2.select_Ap_movie_genre ();
+                        } else {
+                            break;
+                        }
                     }
 
                     break;

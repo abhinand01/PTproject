@@ -1,169 +1,167 @@
-
 {
-    "series": [
-      {
-        "name":"Stranger things",
-        "genre":"superNatural",
-        "genre1":"science ficton",
-        "Rating":8.8,
-        "Storyline":"In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries." 
-      },
-      {
-        "name": "Breaking Bad",
-        "genre":"thriller",
-        "genre1":"crime",
-        "Rating":9.5,
-        "Storyline":"Walter White, a chemistry teacher, discovers that he has cancer and decides to get into the meth-making business to repay his medical debts. His priorities begin to change when he partners with Jesse."
-      },
-      {
-        "name": "Lucifer",
-        "genre":"fantacy",
-        "genre1":"drama",
-        "Rating":8.2,
-        "Storyline":"Lucifer, a demon, returns from hell to reside in Los Angeles and runs a club. He soon gets involved with the local police and assists them in solving tricky criminal cases."
-      },
-      {
-        "name": "peaky blinders",
-        "genre":"crime",
-        "genre1":"historical ficton",
-        "Rating":8.8,
-        "Storyline":"A dangerous Tommy Shelby leads Peaky Blinders, a criminal gang based in Birmingham in 1919. Chief Inspector Chester Campbell decides to nab him and put an end to the activities of this gang."
-      },
-      {
-        "name": "dark",
-        "genre":"mystery",
-        "genre1":"science ficton",
-        "Rating":8.8,
-        "Storyline":"The mystery-drama series introduces an intricate puzzle filled with twists that includes a web of curious characters, all of whom have a connection to the town's troubled history "
-      },
-      {
-        "name": "money heist",
-        "genre":"crime",
-        "genre1":"drama",
-        "Rating":8.4,
-        "Storyline":"A criminal mastermind who goes by \"The Professor\" has a plan to pull off the biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain"
-      },
-      {
-        "name": "friends",
-        "genre":"comedy",
-        "genre1":"romance",
-        "Rating":8.9,
-        "Storyline":"Follow the lives of six reckless adults living in Manhattan, as they indulge in adventures which make their lives both troublesome and happening."
-      },
-      {
-        "name": "teen wolf",
-        "genre":"horror",
-        "genre1":"teen-drama",
-        "Rating":7.6,
-        "Storyline":"Scott McCall, an awkward teen, turns into a werewolf after being bitten by one a day before sophomore year. He must learn to adapt to his new identity while handling life as a teenager."
-      },
-      {
-        "name": "the 100",
-        "genre":"science fiction",
-        "genre1":"action",
-        "Rating":7.7,
-        "Storyline":"Scott McCall, an awkward teen, turns into a werewolf after being bitten by one a day before sophomore year. He must learn to adapt to his new identity while handling life as a teenager."
-      },
-      {
-        "name": "locke&key",
-        "genre":"fantacy",
-        "genre1":"drama",
-        "Rating":7.7,
-        "Storyline":"Following their father's murder, three siblings move into a house filled with reality-bending keys; from the comics by Joe Hill and Gabriel Rodriguez."
-      },
-      {
-        "name": "end of the f***king world",
-        "genre":"dark-comedy",
-        "genre1":"drama",
-        "Rating":8.1,
-        "Storyline":"A budding teen psychopath and a rebel hungry for adventure embark on a star-crossed road trip in this darkly comic series based on a graphic nove"
-      },
-      {
-        "name": "Vampire diaries",
-        "genre":"fantacy",
-        "genre1":"drama",
-        "Rating":7.7,
-        "Storyline":"Trapped in adolescent bodies, feuding vampire brothers Stefan and Damon vie for the affection of captivating teenager Elena."
-      }
-    ],
-    "movie":[
-      {
-        "name":"Extraction",
-        "genre":"action",
-        "genre1":"thriller",
-        "Rating":6.7,
-        "Storyline":"A black-market mercenary who has nothing to lose is hired to rescue the kidnapped son of an imprisoned international crime lord."
-      },
-      {
-        "name":"Train to busan",
-        "genre":"horror",
-        "genre1":"zombie",
-        "Rating":7.6,
-        "Storyline":"Seok-woo and his daughter are on a train to Busan on the latter's birthday to see his wife. However, the journey turns into a nightmare when they are trapped amidst a zombie outbreak in South Korea."
-      },
-      {
-        "name":"the social dilemmma",
-        "genre":"documentary",
-        "genre1":"drama",
-        "Rating":8.0,
-        "Storyline":"Tech experts sound the alarm on the dangerous human impact of social networking."
-      },
-      {
-        "name":"into the wild",
-        "genre":"biography",
-        "genre1":"adventure",
-        "Rating":8.1,
-        "Storyline":"Christopher McCandless, a young graduate, decides to renounce all his possessions and hitchhike across America."
-      },
-      {
-        "name":"the dark knight",
-        "genre":"action",
-        "genre1":"drama",
-        "Rating":9.0,
-        "Storyline":"After Gordon, Dent and Batman begin an assault on Gotham's organised crime, the mobs hire the Joker, a psychopathic criminal mastermind who offers to kill Batman and bring the city to its knees"
-      },
-      {
-        "name":"john wick",
-        "genre":"action",
-        "genre1":"thriller",
-        "Rating":7.4,
-        "Storyline":"a retired hitman seeking vengeance for the killing of the dog given to him by his recently deceased wife."
-      },
-      {
-        "name":"marriage story",
-        "genre":"romance",
-        "genre1":"comedy",
-        "Rating":8.0,
-        "Storyline":"A stage director and his actor wife struggle through a gruelling, coast-to-coast divorce that pushes them to their personal and creative extremes."
-      },
-      {
-        "name":"bulbul",
-        "genre":"mystery",
-        "genre1":"drama",
-        "Rating":6.6,
-        "Storyline":"A child bride grows into an enigmatic woman ruling over her household, hiding her painful past, as supernatural murders of men plague her village."
-      },
-      {
-        "name":"alive",
-        "genre":"horror",
-        "genre1":"drama",
-        "Rating":7.1,
-        "Storyline":"As a grisly virus rampages a city, a lone man stays locked inside his apartment, digitally cut off from seeking help and desperate to find a way out."
-      },
-      {
-        "name":"the terminal",
-        "genre":"comedy",
-        "genre1":"romance",
-        "Rating":7.4,
-        "Storyline":"Viktor Navorski gets stranded at an airport when a war rages in his country. He is forced by the officials to stay at the airport until his original identity is confirmed."
-      },
-      {
-        "name":"the old guard",
-        "genre":"action",
-        "genre1":"fantacy",
-        "Rating":6.7,
-        "Storyline":"A group of mercenaries, all centuries-old immortals with the ablity to heal themselves, discover someone is onto their secret, and they must fight to protect their freedom."
-      }
-
-    ]
-  }
+  "series": [
+    {
+      "name": "Stranger things",
+      "genre": "superNatural",
+      "genre1": "science ficton",
+      "Rating": 8.8,
+      "Storyline": "In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries."
+    },
+    {
+      "name": "Breaking Bad",
+      "genre": "thriller",
+      "genre1": "crime",
+      "Rating": 9.5,
+      "Storyline": "Walter White, a chemistry teacher, discovers that he has cancer and decides to get into the meth-making business to repay his medical debts. His priorities begin to change when he partners with Jesse."
+    },
+    {
+      "name": "Lucifer",
+      "genre": "fantacy",
+      "genre1": "drama",
+      "Rating": 8.2,
+      "Storyline": "Lucifer, a demon, returns from hell to reside in Los Angeles and runs a club. He soon gets involved with the local police and assists them in solving tricky criminal cases."
+    },
+    {
+      "name": "peaky blinders",
+      "genre": "crime",
+      "genre1": "historical ficton",
+      "Rating": 8.8,
+      "Storyline": "A dangerous Tommy Shelby leads Peaky Blinders, a criminal gang based in Birmingham in 1919. Chief Inspector Chester Campbell decides to nab him and put an end to the activities of this gang."
+    },
+    {
+      "name": "dark",
+      "genre": "mystery",
+      "genre1": "science ficton",
+      "Rating": 8.8,
+      "Storyline": "The mystery-drama series introduces an intricate puzzle filled with twists that includes a web of curious characters, all of whom have a connection to the town's troubled history "
+    },
+    {
+      "name": "money heist",
+      "genre": "crime",
+      "genre1": "drama",
+      "Rating": 8.4,
+      "Storyline": "A criminal mastermind who goes by \"The Professor\" has a plan to pull off the biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain"
+    },
+    {
+      "name": "friends",
+      "genre": "comedy",
+      "genre1": "romance",
+      "Rating": 8.9,
+      "Storyline": "Follow the lives of six reckless adults living in Manhattan, as they indulge in adventures which make their lives both troublesome and happening."
+    },
+    {
+      "name": "teen wolf",
+      "genre": "horror",
+      "genre1": "teen-drama",
+      "Rating": 7.6,
+      "Storyline": "Scott McCall, an awkward teen, turns into a werewolf after being bitten by one a day before sophomore year. He must learn to adapt to his new identity while handling life as a teenager."
+    },
+    {
+      "name": "the 100",
+      "genre": "science fiction",
+      "genre1": "action",
+      "Rating": 7.7,
+      "Storyline": "Scott McCall, an awkward teen, turns into a werewolf after being bitten by one a day before sophomore year. He must learn to adapt to his new identity while handling life as a teenager."
+    },
+    {
+      "name": "locke&key",
+      "genre": "fantacy",
+      "genre1": "drama",
+      "Rating": 7.7,
+      "Storyline": "Following their father's murder, three siblings move into a house filled with reality-bending keys; from the comics by Joe Hill and Gabriel Rodriguez."
+    },
+    {
+      "name": "end of the f***king world",
+      "genre": "dark-comedy",
+      "genre1": "drama",
+      "Rating": 8.1,
+      "Storyline": "A budding teen psychopath and a rebel hungry for adventure embark on a star-crossed road trip in this darkly comic series based on a graphic nove"
+    },
+    {
+      "name": "Vampire diaries",
+      "genre": "fantacy",
+      "genre1": "drama",
+      "Rating": 7.7,
+      "Storyline": "Trapped in adolescent bodies, feuding vampire brothers Stefan and Damon vie for the affection of captivating teenager Elena."
+    }
+  ],
+  "movies": [
+    {
+      "name": "Extraction",
+      "genre": "action",
+      "genre1": "thriller",
+      "Rating": 6.7,
+      "Storyline": "A black-market mercenary who has nothing to lose is hired to rescue the kidnapped son of an imprisoned international crime lord."
+    },
+    {
+      "name": "Train to busan",
+      "genre": "horror",
+      "genre1": "zombie",
+      "Rating": 7.6,
+      "Storyline": "Seok-woo and his daughter are on a train to Busan on the latter's birthday to see his wife. However, the journey turns into a nightmare when they are trapped amidst a zombie outbreak in South Korea."
+    },
+    {
+      "name": "the social dilemmma",
+      "genre": "documentary",
+      "genre1": "drama",
+      "Rating": 8.0,
+      "Storyline": "Tech experts sound the alarm on the dangerous human impact of social networking."
+    },
+    {
+      "name": "into the wild",
+      "genre": "biography",
+      "genre1": "adventure",
+      "Rating": 8.1,
+      "Storyline": "Christopher McCandless, a young graduate, decides to renounce all his possessions and hitchhike across America."
+    },
+    {
+      "name": "the dark knight",
+      "genre": "action",
+      "genre1": "drama",
+      "Rating": 9.0,
+      "Storyline": "After Gordon, Dent and Batman begin an assault on Gotham's organised crime, the mobs hire the Joker, a psychopathic criminal mastermind who offers to kill Batman and bring the city to its knees"
+    },
+    {
+      "name": "john wick",
+      "genre": "action",
+      "genre1": "thriller",
+      "Rating": 7.4,
+      "Storyline": "a retired hitman seeking vengeance for the killing of the dog given to him by his recently deceased wife."
+    },
+    {
+      "name": "marriage story",
+      "genre": "romance",
+      "genre1": "comedy",
+      "Rating": 8.0,
+      "Storyline": "A stage director and his actor wife struggle through a gruelling, coast-to-coast divorce that pushes them to their personal and creative extremes."
+    },
+    {
+      "name": "bulbul",
+      "genre": "mystery",
+      "genre1": "drama",
+      "Rating": 6.6,
+      "Storyline": "A child bride grows into an enigmatic woman ruling over her household, hiding her painful past, as supernatural murders of men plague her village."
+    },
+    {
+      "name": "alive",
+      "genre": "horror",
+      "genre1": "drama",
+      "Rating": 7.1,
+      "Storyline": "As a grisly virus rampages a city, a lone man stays locked inside his apartment, digitally cut off from seeking help and desperate to find a way out."
+    },
+    {
+      "name": "the terminal",
+      "genre": "comedy",
+      "genre1": "romance",
+      "Rating": 7.4,
+      "Storyline": "Viktor Navorski gets stranded at an airport when a war rages in his country. He is forced by the officials to stay at the airport until his original identity is confirmed."
+    },
+    {
+      "name": "the old guard",
+      "genre": "action",
+      "genre1": "fantacy",
+      "Rating": 6.7,
+      "Storyline": "A group of mercenaries, all centuries-old immortals with the ablity to heal themselves, discover someone is onto their secret, and they must fight to protect their freedom."
+    }
+  ]
+}
