@@ -47,6 +47,7 @@ class showList : Shows_Ap, IShows_Nf {
             foreach (var item in array.movies) {
                 Console.WriteLine (item.name);
             }
+
         }
     }
     public void findnetflixshow (string selectgenre) {

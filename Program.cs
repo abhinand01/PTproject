@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 
-namespace OTTplatform {
+namespace manageProf {
     class Program {
         static void Main (string[] args) {
-
             string str, choice, ch, sec;
-            int age;
+            int age, sp;
             Console.WriteLine ("----WELCOME TO OTT PLATFORMS PAGE----");
             Console.WriteLine ("Enter your user-name");
             str = Console.ReadLine ();
@@ -21,16 +20,27 @@ namespace OTTplatform {
                 case 1:
                     Netflix ott1 = new Netflix (str, age);
                     showList sh1 = new showList ();
+                    manageProf names_Nf = new manageProf ();
+                    names_Nf[0] = "Dhinesh--0";
+                    names_Nf[1] = "Abinand--1";
+
                     Console.WriteLine ("user name-----> " + ott1.name);
                     Console.WriteLine ("user age-----> " + ott1.age);
                     Console.WriteLine ("choose login-page or sign-up page(IF U DON'T HAVE A ACCOUNT)");
                     choice = Console.ReadLine ();
                     if (choice == "login") {
                         ott1.login ();
+                        Console.WriteLine ("The index of your account profiles:");
+                        for (int i = 0; i < manageProf.size; i++) {
+                            Console.WriteLine (names_Nf[i]);
+                        }
+                        Console.WriteLine ("Select your profile index");
+                        sp = Convert.ToInt16 (Console.ReadLine ());
                     } else if (choice == "sign-up") {
                         ott1.signup ();
+                        Console.WriteLine ("\n");
                         ott1.plans ();
-                        //ott1.payment_Nf();
+                        Console.WriteLine ("\n");
                         ott1.paymentOptions ();
                         ott1.login ();
 
@@ -71,12 +81,21 @@ namespace OTTplatform {
                 case 2:
                     AmazonPrime ott2 = new AmazonPrime (str, age);
                     showList sh2 = new showList ();
+                    manageProf names_Ap = new manageProf ();
+                    names_Ap[0] = "Dhinesh--0";
+                    names_Ap[1] = "Abinand--1";
                     Console.WriteLine ("user name-----> " + ott2.name);
                     Console.WriteLine ("user age-----> " + ott2.age);
                     Console.WriteLine ("choose login-page or sign-up page(IF U DON'T HAVE A ACCOUNT)");
                     choice = Console.ReadLine ();
                     if (choice == "login") {
                         ott2.login ();
+                        Console.WriteLine ("The index of your account profiles:");
+                        for (int i = 0; i < manageProf.size; i++) {
+                            Console.WriteLine (names_Ap[i]);
+                        }
+                        Console.WriteLine ("Select your profile index");
+                        sp = Convert.ToInt16 (Console.ReadLine ());
                     } else if (choice == "sign-up") {
                         ott2.signup ();
                         Console.WriteLine ("\n");
@@ -137,6 +156,7 @@ namespace OTTplatform {
                 p3.discount ();
             } else
                 Console.WriteLine ("Take both subscriptions and get our Special offer");
+
         }
 
     }
