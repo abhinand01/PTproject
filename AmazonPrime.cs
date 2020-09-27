@@ -1,16 +1,23 @@
 using System;
 using System.Threading;
+using System.Linq;
 class AmazonPrime : Netflix {
-    public string nam;
-    public int ag;
+    private string nam;
+    private int ag;
     private string phn;
 
-    public AmazonPrime (string name, int age) : base (name, age) {
-        this.nam = name;
-        this.ag = age;
-    }
+    public string a_name   // property
+  {
+    get { return nam; }
+    set { nam = value; }
+  }
+   public int a_age  // property
+  {
+    get { return ag; }
+    set { ag = value; }
+  }
     public override void signup () {
-        Console.WriteLine (value: $"Hello : {name} ---\"Welcome to Amazon\"---   ");
+        Console.WriteLine (value: $"Hello : {nam} ---\"Welcome to Amazon\"---   ");
         Console.WriteLine ("Enter your phone number");
         phn = Console.ReadLine ();
         Thread.Sleep (3000);

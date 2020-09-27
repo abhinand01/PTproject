@@ -3,11 +3,11 @@ namespace manageProf {
 
     class manageProf {
         private string[] namelist = new string[size];
-        static public int size = 10;
+        static public int size = 5;
 
         public manageProf () {
             for (int i = 0; i < size; i++)
-                namelist[i] = "N. A.";
+                namelist[i] = "Kids";
         }
         public string this [int index] {
             get {
