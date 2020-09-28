@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\applicatiomns\\Ptproject\\PTproject\\OTTplatform.csproj": {}
+    "C:\\Users\\NEW\\Desktop\\OTT_PROJECT\\PTproject\\OTTplatform.csproj": {}
   },
   "projects": {
-    "D:\\applicatiomns\\Ptproject\\PTproject\\OTTplatform.csproj": {
+    "C:\\Users\\NEW\\Desktop\\OTT_PROJECT\\PTproject\\OTTplatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\applicatiomns\\Ptproject\\PTproject\\OTTplatform.csproj",
+        "projectUniqueName": "C:\\Users\\NEW\\Desktop\\OTT_PROJECT\\PTproject\\OTTplatform.csproj",
         "projectName": "OTTplatform",
-        "projectPath": "D:\\applicatiomns\\Ptproject\\PTproject\\OTTplatform.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\applicatiomns\\Ptproject\\PTproject\\obj\\",
+        "projectPath": "C:\\Users\\NEW\\Desktop\\OTT_PROJECT\\PTproject\\OTTplatform.csproj",
+        "packagesPath": "C:\\Users\\NEW\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NEW\\Desktop\\OTT_PROJECT\\PTproject\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NEW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

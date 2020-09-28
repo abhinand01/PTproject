@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Threading;
 using System.IO;
+using System.Threading;
 using Newtonsoft.Json;
 
 namespace manageProf {
     class Program {
         static void Main (string[] args) {
-           
-          
 
             string str, choice, ch, sec;
             int age, sp;
@@ -22,14 +20,15 @@ namespace manageProf {
             int opt = Convert.ToInt32 (Console.ReadLine ());
             switch (opt) {
                 case 1:
-                    
+
                     Netflix ott1 = new Netflix (str, age);
                     showList sh1 = new showList ();
-                    
+
                     manageProf names_Nf = new manageProf ();
                     names_Nf[0] = "Dhinesh--0";
                     names_Nf[1] = "Abinand--1";
-
+                    names_Nf[2] = "kalpana --2";
+                    names_Nf[3] = "ram --3";
                     Console.WriteLine ("user name-----> " + ott1.name);
                     Console.WriteLine ("user age-----> " + ott1.age);
                     Console.WriteLine ("choose login-page or sign-up page(IF U DON'T HAVE A ACCOUNT)");
@@ -47,10 +46,10 @@ namespace manageProf {
                         //Console.WriteLine ("\n");
                         //ott1.plans ();
                         //Console.WriteLine ("\n");
-                       // ott1.login ();
-                        ott1.threadrun();
-                        ott1.plans();
-                         ott1.paymentOptions ();
+                        // ott1.login ();
+                        ott1.threadrun ();
+                        ott1.plans ();
+                        ott1.paymentOptions ();
 
                     }
                     Console.WriteLine ("SELECT THE -- MOVIES SECTION OR SERIES SECTION --");
@@ -88,14 +87,14 @@ namespace manageProf {
                     break;
                 case 2:
                     AmazonPrime ott2 = new AmazonPrime ();
-                    ott2.a_name=str;
-                    ott2.a_age=age;
+                    ott2.a_name = str;
+                    ott2.a_age = age;
                     showList sh2 = new showList ();
                     manageProf names_Ap = new manageProf ();
                     names_Ap[0] = "Dhinesh--0";
                     names_Ap[1] = "Abinand--1";
-                    names_Ap[2]="kalpana --2";
-                    names_Ap[3]="ram --3";
+                    names_Ap[2] = "kalpana --2";
+                    names_Ap[3] = "ram --3";
 
                     Console.WriteLine ("user name-----> " + ott2.a_name);
                     Console.WriteLine ("user age-----> " + ott2.a_age);
