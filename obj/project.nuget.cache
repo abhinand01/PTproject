@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CGlxa4L5xeIsIuG1bGvynhBMmKE0ZAoLZSm/PdOJpE4QxhP4q+tCZt6bHbRjXTptcVZKozp2brmtWP/fQs1ANw==",
+  "dgSpecHash": "HkYIFHAk04tiC61/tpv591whfZMv+Kk0XKZFkDeUOKlKngbX7j+BzTl0Jnfx8Z1FKTt5Ls5CS3TNOIU0SoQmFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\NEW\\Desktop\\OTT_PROJECT\\PTproject\\OTTplatform.csproj",
+  "projectFilePath": "D:\\applicatiomns\\PTproject-1\\OTTplatform.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\NEW\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\LENOVO\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }
