@@ -46,10 +46,15 @@ class AmazonPrime : Netflix {
         }
 
     }
-    public override void plans () {
+    public override int plans () {
         Console.WriteLine (".........Amazom Prime  Plans..........");
         Console.WriteLine ("Annual -3 Screens -999/Y");
         Console.WriteLine ("Monthly -3 Screens -129/M");
+       Console.WriteLine("enter the amount ");
+       int amount = Convert.ToInt16 (Console.ReadLine ());
+       return amount;
+       
+
     }
 
 }

@@ -3,27 +3,29 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 using Newtonsoft.Json;
-
+delegate void bill(string platform,int amount,string mode);
 namespace manageProf {
     class Program {
         static void Main (string[] args) {
 
-            string str, choice, ch, sec;
+            string str, choice, ch, sec,mode;
             int age, sp;
             Console.WriteLine ("----WELCOME TO OTT PLATFORMS PAGE----");
             Console.WriteLine ("Enter your user-name");
             str = Console.ReadLine ();
             Console.WriteLine ("Enter your age");
             age = Convert.ToInt32 (Console.ReadLine ());
+             int amt;
+             payment pay=new payment(str);
+             bill b1=new bill(pay.bill);
 
             Console.WriteLine ("Choose your choice of platform: \nNETFLIX(select \'1\') \nAMAZON(select \'2\')");
             int opt = Convert.ToInt32 (Console.ReadLine ());
             switch (opt) {
                 case 1:
-
+                     
                     Netflix ott1 = new Netflix (str, age);
                     showList sh1 = new showList ();
-
                     manageProf names_Nf = new manageProf ();
                     names_Nf[0] = "Dhinesh--0";
                     names_Nf[1] = "Abinand--1";
@@ -48,8 +50,9 @@ namespace manageProf {
                         //Console.WriteLine ("\n");
                         // ott1.login ();
                         ott1.threadrun ();
-                        ott1.plans ();
-                        ott1.paymentOptions ();
+                        amt=ott1.plans ();
+                        mode=ott1.paymentOptions (amt);
+                        b1("NETFLIX",amt,mode);
 
                     }
                     Console.WriteLine ("SELECT THE -- MOVIES SECTION OR SERIES SECTION --");
@@ -111,9 +114,10 @@ namespace manageProf {
                     } else if (choice == "sign-up") {
                         ott2.signup ();
                         Console.WriteLine ("\n");
-                        ott2.plans ();
+                        amt=ott2.plans ();
                         Console.WriteLine ("\n");
-                        ott2.paymentOptions ();
+                        mode=ott2.paymentOptions (amt);
+                         b1("AMAZON",amt,mode);
                         ott2.login ();
 
                     }

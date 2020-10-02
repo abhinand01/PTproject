@@ -63,12 +63,18 @@ class Netflix : payment {
         }
 
     }
-    public virtual void plans () {
+    
+    public virtual int plans () {
         Console.WriteLine (".........Netflix  Plans..........");
         Console.WriteLine ("Premium -4 Screens -899/M");
         Console.WriteLine ("Standard -2 Screens -649/M");
         Console.WriteLine ("Basic -1 Screens -499/M");
         Console.WriteLine ("Mobile -1 Screens -199/M");
+          Console.WriteLine("enter the amount ");
+       int amount = Convert.ToInt16 (Console.ReadLine ());
+       return amount;
+
+      
     }
     public void threadrun () {
 
