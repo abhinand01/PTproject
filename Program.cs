@@ -158,6 +158,8 @@ namespace manageProf {
             }
             Console.WriteLine ("\n");
             Console.WriteLine ("if you are paying both press 1 else 0");
+            try
+            {
             int a = Convert.ToInt16 (Console.ReadLine ());
             if (a == 1) {
                 Console.WriteLine ("Enter the price of both of your plans ");
@@ -172,6 +174,13 @@ namespace manageProf {
                 p3.discount ();
             } else
                 Console.WriteLine ("Take both subscriptions and get our Special offer");
+            }
+          
+            catch (System.Exception )
+            {
+                Console.WriteLine("exception thrown");
+               // Console.WriteLine(e);
+            }
 
         }
 

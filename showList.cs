@@ -190,6 +190,7 @@ class showList : Shows_Ap, IShows_Nf {
                     flag = 1;
                 }
             }
+    
             if (flag == 0)
                 Console.WriteLine ("Show is not available");
         }

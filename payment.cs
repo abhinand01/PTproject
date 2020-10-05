@@ -36,18 +36,6 @@ class payment {
       Console.WriteLine("Next billing date  :"+next.Day+"-"+next.Month+"-"+next.Year);
       Console.WriteLine("Payment Mode       :"+p_mode);
       Console.WriteLine("Amount             :"+amnt);
-      if(p_mode=="CARD PAYMENT")
-      {
-         Console.WriteLine("Card Details       :*************"+cardnumber[13],cardnumber[14],cardnumber[15]);
-      }
-      else if(p_mode=="UPI PAYMENT")
-         Console.WriteLine("UPI ID             :"+upi);
-      else if(p_mode=="NET BANKING")
-         Console.WriteLine("Details            :User Id is Private data!!!!!");
-      else
-         Console.WriteLine("none!!!!");
-         
-
       Console.WriteLine("========================================");
     }
     public static payment operator + (payment c1, payment c2) {
